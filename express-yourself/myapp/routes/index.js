@@ -6,7 +6,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express yourself' });
 });
 
-router.get('/', function(req, res, next) {
+router.get('/nadia', function(req, res, next) {
 	res.render('index', {title: 'hi' });
     });
 
